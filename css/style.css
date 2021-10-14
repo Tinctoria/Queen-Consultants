@@ -1,0 +1,14 @@
+/* generellt*/ 
+@import 'reset.css';
+@import 'typography.css';
+
+/*Komponenter*/ 
+@import 'Components/basics.css';
+@import 'components/frontpageheader.css';
+@import 'components/header.css'; 
+@import 'components/navbar.css'; 
+@import 'components/footer.css';
+
+/*responsiv*/
+@import 'media.css';
+
