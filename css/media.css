@@ -1,1 +1,15 @@
 /*kod för responsivitet*/ 
+
+
+/*footer*/
+
+@media only screen and (max-width: 800px) {
+
+    .footerWrapper{
+        grid-template-columns: 50% auto ;
+    }
+
+    .footerThree {
+      display:none;
+    }
+  }
