@@ -16,7 +16,7 @@ article p{
 
 /*Navbar*/
 
-.navbtn{ 
+.navbtn, .navbtn-first, .navbtn-last{ 
     font-weight: bold;
     font-size: 30px;
     color: black; 
@@ -27,9 +27,7 @@ article p{
     color: white; 
 }
 
-.fp-header .navbar .navbtn {
-    color: white;
-}
+/*Navbar på förstasidan återstår, avvaktar om Maia vill byta classer eller så*/
 
 /*footer*/
 
