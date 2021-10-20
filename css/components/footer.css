@@ -1,0 +1,51 @@
+
+/*footer*/
+/* Grid på wrappern, flex i kolumnerna.Borden är bara för att synliggöra start och slut. 
+ vänter på rätt font och ikoner ska sättas in*/
+
+ .footerWrapper{
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    height: 240px;
+    border: 1px solid black;
+}
+
+.footerOne, .footerTwo , .footerThree {
+    display: flex;
+    flex-direction: column;
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+
+.footerOne{
+
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+.footerTwo{
+justify-content: space-between;
+align-items: center;
+}
+
+.footerbtn{
+    text-decoration: none;
+    color:black;
+}
+
+
+.footerThree{
+justify-content: end;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid black;
+    width:60%;
+}
+/*footer end*/

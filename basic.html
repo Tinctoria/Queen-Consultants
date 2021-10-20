@@ -27,34 +27,34 @@
     </main> <!-- Main slutar här -->
 
 
-    <!-- Footern börjar här -->
-    <footer>
-        <h3>Text</h3> <!-- Queens consulting enligt er design -->
-        <img src="..." alt="linkedin-icon"> <!-- LinkedIn ikonen -->
-        <img src="..." alt="facebook-icon"> <!-- Facebook ikonen -->
+   <!-- Footern börjar här -->
 
-        <a class="footerbtn" href="#">Hem</a> <!-- Samma princip som navbaren bara nere i footern -->
+   <div class="footerWrapper">
+
+    <div class="footerOne">
+        <h3>Queen consultans</h3> <!-- Queens consulting enligt er design -->
+
+        <div class="imgWrapper">
+            <img src="..." alt="linkedin-icon"> <!-- LinkedIn ikonen -->
+            <img src="..." alt="facebook-icon"> <!-- Facebook ikonen -->
+        </div>
+
+    </div>
+
+    <div class="footerTwo"> <!-- Samma princip som navbaren bara nere i footern -->
+        <a class="footerbtn" href="#">Hem</a>
         <a class="footerbtn" href="#">Vad vi gör</a>
         <a class="footerbtn" href="#">Projekt</a>
         <a class="footerbtn" href="#">Kontakt</a>
+    </div>
 
-        <!-- P-tagg kan användas för text som ska vara i footern. Ha klass på så vi kan styla den sedan :) -->
-
-        <div class="search"> <!-- Sökrutan för footern -->
+    <div class="footerThree"> <!-- Sökrutan för footern -->
+        <div class="search">
             <label for="search-ruta">Sök:</label>
             <input type="search" id="search-ruta" name="search-ruta"> <!-- inputfältet för sökrutan -->
-            <button> <!-- Knappen "sök" för sökrutan -->
-                <img src=".." alt="search-button">
-            </button>
         </div>
-
-        <button class="up-to-top-of-the-page"> <!-- Upp knappen på footern -->
-            <img src=".." alt="upp-knapp"> <!-- Bilden för uppknappen på footern -->
-        </button>
-
-        <a class="upp-text" href="#">Upp</a> <!-- Texten för uppknappen på footern, ska tydligen vara klickbar? -->
-
-    </footer> <!-- Footern slutar här -->
+    </div>
+    <!-- Footern slutar här -->
     
     <script src="js/main.js"></script>
 </body>
