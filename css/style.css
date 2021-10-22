@@ -4,6 +4,7 @@
 
 /*Komponenter*/ 
 @import 'Components/basics.css';
+@import 'Components/main.css';
 @import 'components/frontpageheader.css';
 @import 'components/header.css'; 
 @import 'components/navbar.css'; 
@@ -11,4 +12,3 @@
 
 /*responsiv*/
 @import 'media.css';
-
