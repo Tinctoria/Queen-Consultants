@@ -5,6 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Page name</title>
 </head>
@@ -37,34 +40,39 @@
     </main> <!-- Main slutar här -->
 
 
-    <!-- Footern börjar här -->
-    <footer>
-        <h3>Text</h3> <!-- Queens consulting enligt er design -->
-        <img src="..." alt="linkedin-icon"> <!-- LinkedIn ikonen -->
-        <img src="..." alt="facebook-icon"> <!-- Facebook ikonen -->
+   <!-- Footern börjar här -->
 
-        <a class="footerbtn" href="#">Hem</a> <!-- Samma princip som navbaren bara nere i footern -->
-        <a class="footerbtn" href="#">Vad vi gör</a>
-        <a class="footerbtn" href="#">Projekt</a>
-        <a class="footerbtn" href="#">Kontakt</a>
+   <div class="footerWrapper">
 
-        <!-- P-tagg kan användas för text som ska vara i footern. Ha klass på så vi kan styla den sedan :) -->
+    <div class="footerOne">
+        <h3>Queen consultans</h3> <!-- Queens consulting enligt er design -->
 
-        <div class="search"> <!-- Sökrutan för footern -->
-            <label for="search-ruta">Sök:</label>
-            <input type="search" id="search-ruta" name="search-ruta"> <!-- inputfältet för sökrutan -->
-            <button> <!-- Knappen "sök" för sökrutan -->
-                <img src=".." alt="search-button">
-            </button>
+        <div class="imgWrapper">
+            <img class="linkedin-icon" src="SVG/Linked-in-icon.svg" height="30px"  alt="linkedin-icon"> <!-- LinkedIn ikonen -->
+            <img class="facebook-icon" src="SVG/Facebook-icon.svg" height="30px" alt="facebook-icon"> <!-- Facebook ikonen -->
         </div>
 
-        <button class="up-to-top-of-the-page"> <!-- Upp knappen på footern -->
-            <img src=".." alt="upp-knapp"> <!-- Bilden för uppknappen på footern -->
-        </button>
+    </div>
 
-        <a class="upp-text" href="#">Upp</a> <!-- Texten för uppknappen på footern, ska tydligen vara klickbar? -->
+    <div class="footerTwo"> <!-- Samma princip som navbaren bara nere i footern -->
+        <div class="wrapperfooter-link">
+        <a class="footerbtn" href="#"><img src="svg/Arrow-right-list-icon.svg" alt="arrow"> Hem</a>
+        <a class="footerbtn" href="#"><img src="svg/Arrow-right-list-icon.svg" alt="arrow"> Vad vi gör</a>
+    </div>
+    <div class="wrapperfooter-link">
+        <a class="footerbtn" href="#"><img src="svg/Arrow-right-list-icon.svg" alt="arrow"> Projekt</a>
+        <a class="footerbtn" href="#"><img src="svg/Arrow-right-list-icon.svg" alt="arrow"> Kontakt</a>
+    </div>
+    </div>
 
-    </footer> <!-- Footern slutar här -->
+    <div class="footerThree"> <!-- Sökrutan för footern -->
+        <div class="search">
+            <label for="search-ruta">Sök:</label>
+            <span class="icon"> <i class="magnifyer"> <img src="SVG/search_black_24dp (2).svg" alt="" ></i></span>
+            <input type="search" id="search-ruta" name="search-ruta"> <!-- inputfältet för sökrutan -->
+        </div>
+    </div>
+    <!-- Footern slutar här -->
     
     <script src="js/main.js"></script>
 </body>

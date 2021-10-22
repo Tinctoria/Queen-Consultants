@@ -3,13 +3,96 @@
 
 /*footer*/
 
-@media only screen and (max-width: 800px) {
-
-    .footerWrapper{
-        grid-template-columns: 50% auto ;
-    }
-
-    .footerThree {
-      display:none;
-    }
+@media only screen and (max-width: 1061px){
+  .footerOne H3{
+    font-size: 40px;
   }
+}
+
+@media only screen and (max-width: 887px){
+  .footerOne H3{
+    font-size: 35px;
+  }
+  
+  .footerWrapper{
+    height: 108px;
+  }
+
+  .footerOne, .footerTwo , .footerThree {
+    margin:0;
+  }
+
+  .search{
+    margin:5px;
+  }
+}
+
+  
+@media only screen and (max-width: 780px) {
+
+  .footerWrapper{
+    grid-template-columns: auto auto ;
+    height: 108px;
+  }
+
+  .wrapperfooter-link{
+   width: 80%;
+  }
+ 
+
+.footerOne{
+  justify-content: center;
+  align-items: center;
+  padding:0;
+}
+
+.footerOne H3{
+  font-size: 25px;
+}
+
+.footerTwo a{
+  font-size: 14px;
+}
+
+.facebook-icon , .linkedin-icon{
+  height: 20px;
+  margin-top:8px;
+  padding:0;
+}
+
+.imgWrapper{
+ 
+  align-items: center;
+}
+
+  .footerTwo{
+    flex-direction: row;
+   
+  }
+
+  .footerThree {
+    display:none;
+  }
+
+}
+  
+@media only screen and (max-width: 509px) {
+
+
+.footerOne{
+  align-items: flex-start;
+}
+
+.footerOne H3{
+  font-size: 20px;
+}
+
+.linkedin-icon{
+  padding-left:15px;
+}
+
+.imgWrapper{
+  width: 100%;
+}
+
+}
