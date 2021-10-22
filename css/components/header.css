@@ -1,1 +1,22 @@
 /*Här finns kod för headern i övriga sidor*/ 
+
+.basic-header {
+    width:100%;
+    height:50vh;
+    position:relative;
+}
+
+.basic-header h1 {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    color:white;
+    font-size:4.2rem;
+}
+
+.basic-header img {
+    height:50vh;
+    width:100%;
+    object-fit: cover;
+    object-position:80% 65%;
+}
