@@ -45,7 +45,7 @@
     width: 3px;
     background-color: #000AFF;
     border-radius: 3px;
-    transition: 1s;
+    transition: .5s;
 }
 
 /*Linjer för navbaren i start sidan*/
