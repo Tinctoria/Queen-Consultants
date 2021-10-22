@@ -6,7 +6,8 @@
  .footerWrapper{
     display: grid;
     grid-template-columns: 50% auto auto;
-    height: 240px;
+    width: 100%;
+    height: 10em;
     border: 1px solid black;
 }
 
@@ -18,21 +19,41 @@
 }
 
 .footerOne{
-
-justify-content: center;
-align-items: center;
+padding-left:2rem;
 width: 100%;
 }
 
-.footerTwo{
-justify-content: space-between;
-align-items: center;
+.footerOne h3{
+    padding-left:10px;
 }
+.linkedin-icon{
+    padding-left: 1.5rem;
+    margin-top:1.5rem;
+    height:30px;
+}
+
+.facebook-icon{
+    height:30px;
+}
+
+.footerTwo{
+
+align-items: baseline;
+}
+
+.wrapperfooter-link{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;}
+
 
 .footerbtn{
     text-decoration: none;
     color:black;
+   
 }
+
 
 
 .footerThree{
@@ -42,10 +63,26 @@ justify-content: end;
 .search{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 input{
     border: 1px solid black;
     width:60%;
+    height: 2em;
+    padding-left:30px;
+    color: black;
 }
+
+
+
+i{ 
+    position: absolute;
+    z-index: 10;
+    padding-left:5px;
+    padding-top:2px
+}
+
+
+
 /*footer end*/
