@@ -14,13 +14,8 @@
 
 .left-side h1 {
     margin-bottom:1.5rem;
-    font-size:3rem;
-    color:black;
 }
 
-.left-side p {
-    font-size: 1.3rem;
-}
 
 .right-side {
     height:auto;
@@ -41,8 +36,6 @@
 
 .right-side h2 {
     margin-top:0.3rem;
-    font-style:italic;
-    font-size:2.5rem;
 }
 
 .middle-banner {
