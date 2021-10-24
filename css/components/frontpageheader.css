@@ -1,9 +1,5 @@
 /*Här finns kod för startsidans header*/ 
 
-/*Nödlösning så länge. Navbartext ska vara vit på förstasidan, får fixas*/
-.navbtn-first, .navbtn, .navbtn-last{
-    color: white !important;
-}
 
 .fp-header {
     margin: 0%;
@@ -11,7 +7,6 @@
     width: 100%;
     height: 100vh;
     background-color: #433FF5 ;
-    color: white;
     position: relative; /*För att kunna positionera texten*/
     display: flex;
     flex-direction: row;
@@ -63,10 +58,7 @@
 	border:2px solid #ffe02e;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-size:16px;
 	padding:10px 15px;
-	text-decoration:none;
 }
 
 .kontakt-btn:hover {
