@@ -8,6 +8,9 @@
 h1, h2, h3 {
     font-weight: bold;
 }
+a{
+    text-decoration: none;
+}
 
 article p{
     font-family: 'Montserrat', sans-serif;
@@ -27,11 +30,14 @@ article p{
     font-weight: bold;
     font-size: 1.5rem;
     color: black; 
-    text-decoration: none;
 }
 
 .navbtn:hover {
     color: white; 
+}
+/*frontpage navbar special */
+.fp-navbar a.navbtn {
+    color:white;
 }
 
 /*Navbar på förstasidan återstår, avvaktar om Maia vill byta classer eller så*/
@@ -48,7 +54,7 @@ label {
     font-family: 'Montserrat', sans-serif;
 }
 .footerOne h3 {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 /*headers*/ 
@@ -58,7 +64,7 @@ label {
     color: white;
 }
 h1 {
-    font-size: 72px;
+    font-size: 4.5rem;
     color: white;
 }
 
