@@ -35,12 +35,11 @@ article p{
 .navbtn:hover {
     color: white; 
 }
+
 /*frontpage navbar special */
 .fp-navbar a.navbtn {
     color:white;
 }
-
-/*Navbar på förstasidan återstår, avvaktar om Maia vill byta classer eller så*/
 
 /*footer*/
 
@@ -63,6 +62,11 @@ label {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
+.kontakt-btn {
+    font-weight: bold;
+}
+
 h1 {
     font-size: 4.5rem;
     color: white;
