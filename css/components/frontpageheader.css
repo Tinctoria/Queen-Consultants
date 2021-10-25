@@ -1,5 +1,80 @@
 /*Här finns kod för startsidans header*/ 
 
+
 .fp-header {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: #433FF5 ;
+    position: relative; /*För att kunna positionera texten*/
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/*Blobbarna positionerade med z-index*/
+.fp-blob {
+    z-index: 1;
+    position: absolute;
+    top: 60vh;
+}
+
+/*Vänster sida, inkluderar texten*/
+.left-header {
+    width: 50%;
+    height: 100%;
+}
+
+/*text*/
+.pres-article {
+    z-index: 1;
+    position: absolute; /*För att kunna positionera texten*/
+    top: 40%;
+    left: 25%;  
+}
+/*Queen consultatnts slidear in när sidan laddas*/
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+.ourname {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.fp-text {
+    margin: 15px;
+}
+
+/*Kontakt knappen, saknar svg för pilen*/
+.kontakt-btn {
+    margin-left: 15px;
+	border-radius:5px;
+	border:2px solid #ffe02e;
+	display:inline-block;
+	cursor:pointer;
+	padding:10px 15px;
+}
+
+.kontakt-btn:hover {
+    border: 3px solid #ffe02e;
     
+}
+    
+.kontakt-btn:active {
+    position:relative;
+	top:.6px;
+}
+
+/*Höger sida med bilden*/
+.right-header {
+    width: 50%;
+    max-height: 100%;
+    display: flex;
+    align-items: flex-end;
 }
