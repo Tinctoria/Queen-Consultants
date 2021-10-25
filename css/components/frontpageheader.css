@@ -66,6 +66,7 @@
     position: relative;
 }
 
+/*Kontakt svg-pilen behövde positioneras separat */
 .fp-svg-arrow {
     position: absolute;
     bottom: 7px;
