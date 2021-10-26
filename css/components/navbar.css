@@ -54,3 +54,7 @@
 }
 
 
+/*aktiv sida i navbar*/
+.active{
+    background-color: #000AFF;
+}
