@@ -6,10 +6,10 @@
 }
 
 .left-side {
-    width:25%;
+    width:35%;
     height:auto;
     margin-top:1.5rem;
-    margin-left:3rem;
+    padding-left:7rem;
 }
 
 .left-side h1 {
@@ -19,7 +19,7 @@
 
 .right-side {
     height:auto;
-    width:75%;
+    width:65%;
     display:flex;
     flex-direction:column;
     align-items: flex-start;
@@ -27,32 +27,32 @@
 }
 
 #blobb {
-    height:75%;
+    height:90%;
     position:absolute;
-    left:50%;
+    left:40%;
 }
 
 #guyonthephone {
-    height:30%;
+    height:37%;
     object-fit:contain;
     border-radius:5px;
     position:absolute;
-    top:70%;
-    left:62%;
+    top:75%;
+    left:53%;
 }
 
 .right-side h2 {
     position:relative;
     margin-top:0.3rem;
-
     font-style:italic;
     font-size:2.5rem;
-    top:58%;
-    left:48%;
+    top:74%;
+    left:28%;
     color:white;
 }
 
 .middle-banner {
+    margin-top:5rem;
     width:100%;
     height:500px;
     position:relative;
