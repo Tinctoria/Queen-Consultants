@@ -41,6 +41,15 @@
     left:53%;
 }
 
+.article-img{
+    height:37%;
+    object-fit:contain;
+    border-radius:5px;
+    position:absolute;
+    top:75%;
+    left:53%;
+}
+
 .right-side h2 {
     position:relative;
     margin-top:0.3rem;
