@@ -54,11 +54,23 @@
 /*Kontakt knappen, saknar svg för pilen*/
 .kontakt-btn {
     margin-left: 15px;
+    
 	border-radius:5px;
 	border:2px solid #ffe02e;
-	display:inline-block;
 	cursor:pointer;
-	padding:10px 15px;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 55px;
+    display: inline-block;
+    position: relative;
+}
+
+/*Kontakt svg-pilen behövde positioneras separat */
+.fp-svg-arrow {
+    position: absolute;
+    bottom: 7px;
+    margin-left: 10px;
 }
 
 .kontakt-btn:hover {
@@ -70,6 +82,7 @@
     position:relative;
 	top:.6px;
 }
+
 
 /*Höger sida med bilden*/
 .right-header {
