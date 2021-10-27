@@ -35,6 +35,9 @@ article p{
 .navbtn:hover {
     color: white; 
 }
+.active {
+    color:white;
+}
 
 /*frontpage navbar special */
 .fp-navbar a.navbtn {
