@@ -143,11 +143,15 @@
     opacity:85%;
 } 
 
+.overlay {
+    
+}
+
 /*projekt kort*/
 .kort-wrapper {
-    background-color: gray;
     width: 100%;
-    height: 80rem;
+    height: 120rem;
+    background-image: url("img/laptop_hands.jpg");
 }
 
 /*laltop bilden till korten*/
@@ -184,16 +188,51 @@
 .kort-head {
     font-size: 2rem;
     margin: 2rem;
+    font-family: 'Montserrat', sans-serif
 }
 
 .kort-info {
     margin: 0 2rem 2rem 2rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif
 }
 
 .kort-footer {
     margin: 0 0 1rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
 }
 
+/*projekt kort 2*/
+
+/*laltop bilden till korten*/
+.laptop-pic2 {
+    width: 68rem;
+    height: 28rem;
+    object-fit: cover;
+    position: absolute;
+    left: 10%;
+    border-radius: 5px;
+    margin-top: 70rem;
+}
+
+/*blob kort 1*/
+.blob1-kort-pro2 {
+    position: absolute;
+    margin-top: 8rem;
+    left: 24%;
+    margin-top: 67.5rem;
+}
+
+/*kort projekt 2*/
+.kort-text2 {
+    width: 47rem;
+    height: 19rem;
+    background-color: white;
+    position: absolute;
+    left: 26%;
+    margin-top: 74rem;
+}
 
 
 /*vara tjanster*/
