@@ -17,7 +17,7 @@
 }
 
 
-.right-side {
+.right-side  {
     height:auto;
     width:65%;
     display:flex;
@@ -193,3 +193,4 @@
 .kort-footer {
     margin: 0 0 1rem 2rem;
 }
+
