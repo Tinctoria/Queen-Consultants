@@ -75,66 +75,7 @@
 }   
 
 
-/* våra tjänster */
+/*våra tjänster*/
 
-.main-våratjänster{
-   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.wrapper-main{
-    width: 90%;
-}
-
-.small-img-våratjänster{
-    height:45%;
-    object-fit:contain;
-    border-radius:5px;
-    position:absolute;
-    top:73%;
-    left:53%;
-}
-
-.img-våratjänster{
-    object-position: bottom;
-}
-
-.left-side-våratjänster{
-    display: flex;
-    z-index: 5;
-    width:50%;
-    align-items: center;
-    height:100%;
-}
-
-.left-side-våratjänster h1 {
-    margin-bottom:1.5rem;
-}
-.article-våratjänster{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.text-wrapper{
-    width: 90%;
-}
-
-.right-side-våratjänster h2{
-    position:relative;
-    margin-top:0.3rem;
-    font-style:italic;
-    font-size:2.5rem;
-    top:85%;
-    left:5%;
-    color:white;
-}
-
-#blobb-våratjänster {
-    height:90%;
-    position:absolute;
-    left:44%;
-}
-
-/* våra tjänster */
+object-position:bottom;
