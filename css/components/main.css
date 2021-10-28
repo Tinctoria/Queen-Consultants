@@ -17,7 +17,7 @@
 }
 
 
-.right-side {
+.right-side  {
     height:auto;
     width:65%;
     display:flex;
@@ -224,7 +224,7 @@
     margin-top: 67.5rem;
 }
 
-/**/
+/*kort projekt 2*/
 .kort-text2 {
     width: 47rem;
     height: 19rem;
@@ -232,4 +232,11 @@
     position: absolute;
     left: 26%;
     margin-top: 74rem;
+}
+
+
+/*vara tjanster*/
+
+.img-vara-tjanster{
+    object-position: bottom;
 }
